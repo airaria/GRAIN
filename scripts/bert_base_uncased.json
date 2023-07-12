@@ -1,0 +1,8 @@
+[{
+    "model_type":"bert",
+    "ckpt_file":"pretrained-models/bert/base_uncased",
+    "config_file":"pretrained-models/bert/base_uncased/config.json",
+    "vocab_file":"pretrained-models/bert/base_uncased/vocab.txt",
+    "prefix":"bert_uncased",
+    "tokenizer_kwargs":{"do_lower_case":true}
+}]
