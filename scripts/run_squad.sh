@@ -1,7 +1,7 @@
 OUTPUT_ROOT_DIR=pruned_models
-DATA_ROOT_DIR=/path/to/squad/datasets
+DATA_ROOT_DIR=datasets/squad
 
-teacher_model_path=../teacher_models/squad/pytorch_model.bin
+teacher_model_path=teacher_models/squad/pytorch_model.bin
 
 IS_alpha_head=3e-1
 accu=1

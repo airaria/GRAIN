@@ -1,7 +1,9 @@
+TASK=sst2
+
 OUTPUT_ROOT_DIR=pruned_models
 DATA_ROOT_DIR=/path/to/glue/datasets
 
-teacher_model_path=../teacher_models/sst2/pytorch_model.bin
+teacher_model_path=teacher_models/${TASK}/pytorch_model.bin
 
 IS_alpha_head=3e-1
 accu=1
@@ -13,7 +15,7 @@ lr=3
 seed=1337
 weights_ratio=05
 
-taskname=sst2
+taskname=${TASK}
 DATA_DIR=${DATA_ROOT_DIR}/${taskname}
 end_at=0.4
 pf=1
